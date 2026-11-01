@@ -2,12 +2,15 @@ package com.juniverse.strassen;
 
 import java.util.Arrays;
 
+import java.util.logging.Logger;
 /**
  * Ejemplo: multiplica dos matrices de 3x3.
  *
  * @author ajuar
  */
 public class Main {
+    private static final Logger LOGGER = AppLogger.get(Main.class);
+
 
     /**
      * Punto de entrada.
@@ -28,9 +31,9 @@ public class Main {
 
         double[][] C = Strassen.multiply(A, B);
 
-        System.out.println("Resultado:");
+        LOGGER.info("Resultado:");
         for (double[] row : C) {
-            System.out.println(Arrays.toString(row));
+            LOGGER.info(Arrays.toString(row));
         }
     }
 }
