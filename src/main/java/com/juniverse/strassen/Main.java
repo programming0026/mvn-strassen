@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 /**
  * Ejemplo: multiplica dos matrices de 3x3.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class Main {
     private static final Logger LOGGER = AppLogger.get(Main.class);

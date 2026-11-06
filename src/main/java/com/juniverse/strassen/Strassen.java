@@ -8,7 +8,7 @@ import java.util.concurrent.RecursiveTask;
  * O(n^2.807)), ejecutada en paralelo con ForkJoin. Las matrices se rellenan con ceros hasta una potencia de 2
  * y por debajo de {@code THRESHOLD} se usa la multiplicación clásica.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public final class Strassen {
 
